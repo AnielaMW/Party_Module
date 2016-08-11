@@ -36,7 +36,7 @@ describe "The Party" do
 
   describe ".invited?" do
     it "returns true!" do
-      expect(Launcher.invited?).to eq(true)
+      expect(partygoer.invited?).to eq(true)
     end
   end
 end
